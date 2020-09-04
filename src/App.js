@@ -31,7 +31,7 @@ function App() {
             <Route path="/users">
               <Users />
             </Route>
-            <Route path={`/user/:keyId`}>
+            <Route path={`/user/:keyId`}> 
               <UserDetails></UserDetails>
             </Route>
             <Route exact path="/">
