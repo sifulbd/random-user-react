@@ -9,7 +9,7 @@ function Users() {
         .then(res => res.json())
         .then(data => setUsers(data))
         .catch(error => console.log(error))
-    }, []);
+    }, []); 
 
     return (
         <div>
