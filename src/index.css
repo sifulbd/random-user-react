@@ -18,3 +18,7 @@ code {
 .nav li {
   margin: 50px 20px;
 }
+
+.form-control {
+  margin: 10px 0;
+}
